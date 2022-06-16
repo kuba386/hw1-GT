@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let carOne = Car(brand: "BMW", year: 2022, winStatus: .closeWindow, engStatus: .on)
+print(carOne)

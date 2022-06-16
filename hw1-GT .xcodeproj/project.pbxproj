@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4DF8FF36285AB8F8004B958A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8FF35285AB8F8004B958A /* main.swift */; };
+		4DF8FF3D285AB9FC004B958A /* classCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8FF3C285AB9FC004B958A /* classCar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DF8FF32285AB8F8004B958A /* hw1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw1; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF8FF32285AB8F8004B958A /* hw1-GT  */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw1-GT "; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF8FF35285AB8F8004B958A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4DF8FF3C285AB9FC004B958A /* classCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		4DF8FF29285AB8F8004B958A = {
 			isa = PBXGroup;
 			children = (
+				4DF8FF3C285AB9FC004B958A /* classCar.swift */,
 				4DF8FF34285AB8F8004B958A /* hw1 */,
 				4DF8FF33285AB8F8004B958A /* Products */,
 			);
@@ -49,7 +52,7 @@
 		4DF8FF33285AB8F8004B958A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DF8FF32285AB8F8004B958A /* hw1 */,
+				4DF8FF32285AB8F8004B958A /* hw1-GT  */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +68,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DF8FF31285AB8F8004B958A /* hw1 */ = {
+		4DF8FF31285AB8F8004B958A /* hw1-GT  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DF8FF39285AB8F8004B958A /* Build configuration list for PBXNativeTarget "hw1" */;
+			buildConfigurationList = 4DF8FF39285AB8F8004B958A /* Build configuration list for PBXNativeTarget "hw1-GT " */;
 			buildPhases = (
 				4DF8FF2E285AB8F8004B958A /* Sources */,
 				4DF8FF2F285AB8F8004B958A /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = hw1;
+			name = "hw1-GT ";
 			productName = hw1;
-			productReference = 4DF8FF32285AB8F8004B958A /* hw1 */;
+			productReference = 4DF8FF32285AB8F8004B958A /* hw1-GT  */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4DF8FF2D285AB8F8004B958A /* Build configuration list for PBXProject "hw1" */;
+			buildConfigurationList = 4DF8FF2D285AB8F8004B958A /* Build configuration list for PBXProject "hw1-GT " */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DF8FF31285AB8F8004B958A /* hw1 */,
+				4DF8FF31285AB8F8004B958A /* hw1-GT  */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF8FF36285AB8F8004B958A /* main.swift in Sources */,
+				4DF8FF3D285AB9FC004B958A /* classCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DF8FF2D285AB8F8004B958A /* Build configuration list for PBXProject "hw1" */ = {
+		4DF8FF2D285AB8F8004B958A /* Build configuration list for PBXProject "hw1-GT " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DF8FF37285AB8F8004B958A /* Debug */,
@@ -276,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DF8FF39285AB8F8004B958A /* Build configuration list for PBXNativeTarget "hw1" */ = {
+		4DF8FF39285AB8F8004B958A /* Build configuration list for PBXNativeTarget "hw1-GT " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DF8FF3A285AB8F8004B958A /* Debug */,
